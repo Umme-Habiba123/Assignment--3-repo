@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-3</title>
+  <!-- DaisyUi -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google font -Sora -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- Poppins font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- google font -->
+  <script src="https://kit.fontawesome.com/ce4e831da4.js" crossorigin="anonymous"></script>
+  <!-- tailwind.config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            green: '#179800',
+          }
+        }
+      }
+    }
+  </script>
+
+
+  <style>
+    /* sora */
+    .sora-font {
+      font-family: "Sora", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+
+    /* poppins */
+    .poppins-font {
+      font-family: "Poppins", serif;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header class="max-w-full sora-font bg-gradient-to-b from-white to-[#EFEBE3]">
+
+    <!-- nav section -->
+    <nav class="sora-font max-w-7xl mx-auto mt-4">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+
+          <a><img class="hidden lg:block lg:ml-20" src="c2-assets/logo-header.png" alt="natures platter"></a>
+          <!--nav logo--2 -->
+
+          <img class="lg:hidden pl-2 mb-2" src="c2-assets/logo-footer.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-xl text-[#111111]">
+            <li><a>Product</a></li>
+            <li>
+              <summary>Services</summary>
+            </li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+        <div class=" lg:block hidden">
+          <ul class="flex mt-4 lg:space-x-7 ml-28">
+            <!-- <!-- nav icon - 1 -->
+
+            <li class="mt-4"><i class="fa-solid fa-magnifying-glass"></i></li>
+            <!-- nav icon - 2 -->
+
+            <li class="mr-6 mt-4"><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><button class="btn btn-secondary px-7 text-center bg-white text-black border-green-700"> Login
+              </button></li>
+            <li> <a class="btn btn-success bg-green-700 text-white">Register</a></li>
+
+          </ul>
+
+        </div>
+        <div>
+          <li class=" lg:hidden ml-44 block"><i class="fa-solid fa-bars"></i></li>
+        </div>
+      </div>
+    </nav>
+    <hr class="lg:hidden">
+
+    <!-- banner section -->
+    <div class="max-w-7xl mx-auto banner-parent-div">
+      <div class="banner-headline text-center lg:mt-20">
+
+        <h1 class="lg:text-6xl text-4xl font-semibold text-black mt-4">Freshness <span class="text-[#3c873c]">You Can
+            <br> Count</span>
+          On, Prices You’ll Love!</h1>
+
+        <p class="lg:text-xl px-4 text-gray-600 lg:mt-12 mt-6">Shop your daily essentials at unbeatable prices. From
+          fresh produce to
+          pantry <br> staples, we’ve got you covered every day!</p>
+      </div>
+      <div class="banner-img lg:mb-36 w-7/12 relative lg:left-72 left-20 ">
+        <img src="c2-assets/hero-vegetables.png" alt="">
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <!-- services card section -->
+    <section class="lg:max-w-7xl mx-auto sora-font">
+      <h2 class="text-green lg:text-4xl text-3xl font-semibold mb-10 mt-10 pl-6">Services</h2>
+      <div class="sevices-cards-parent flex-cols lg:flex flex-wrap lg:space-x-6 space-y-6 mx-6 ">
+        <!-- cards - 1 -->
+
+        <div class="card bg-base-100 lg:w-96 bg-[#EFEBE3]">
+          <figure class="px-10 pt-10">
+            <img src="c2-assets/service.png" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">24/7 Services </h2>
+            <p>24/7 service might be offered by a supermarket, convenience store, ATM, automated online assistant,
+              filling station, restaurant</p>
+          </div>
+        </div>
+        <!-- cards - 2 -->
+
+        <div class="card bg-base-100 lg:w-96 bg-[#EFEBE3]">
+          <figure class="px-10 pt-10">
+            <img src="c2-assets/delivery.png" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Fast Delivery</h2>
+            <p>fast delivery service" article would explore the concept of rapid product delivery, highlighting the key
+            </p>
+          </div>
+        </div>
+        <!-- cards - 3 -->
+
+        <div class="card bg-base-100 lg:w-96 bg-[#EFEBE3] ">
+          <figure class="px-10 pt-10">
+            <img src="c2-assets/healthy.png" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Healthy Products</h2>
+            <p>Eight Wellness Tips For Healthy And Happy Living From Water To Essential Oils. Discover expert health
+              tips and practical advice </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="">
+
+      <!-- popular products section-->
+      <div class="bg-[#EFEBE3] sora-font text-4xl font-semibold max-w-full mx-auto h-auto lg:mt-40">
+
+
+        <div class="max-w-7xl mx-auto ">
+          <div>
+            <h2 class="text-green lg:pt-40 lg:mb-20">Popular Products</h2>
+          </div>
+
+          <!-- big cards -->
+          <div class="card bg-base-100 max-w-md max-h-full bg-gradient-to-r from-[#249710] to-white">
+            <div class="card-body">
+              <h2 class="card-title text-white text-3xl">30% off</h2>
+              <p>discover a world of treats, toys,and essentials handpicked for </p>
+              <div class="card-actions">
+                <button class="btn btn-primary bg-white text-black">Buy Now</button>
+              </div>
+            </div>
+            <figure>
+              <img class="" src="c2-assets/vegetable-offer.png" alt="Shoes" />
+            </figure>
+          </div>
+        </div>
+
+        <!-- small-cards -->
+        <div class="small -cards-parent max-w-7xl mx-auto ">
+          <div class="card bg-base-100 w-96 flex">
+            <div>
+              <img class="" src="c2-assets/onion.png" alt="">
+            </div>
+            <div class="card-body">
+              <h4 class="text-base"><i class="fa-solid fa-star"></i> 4.5</h4>
+              <h2 class="card-title text-xl font-medium">Onion 1 KG</h2>
+              <p class="text-base">$39.99</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section>
+      <!-- arrival and offer -->
+
+      <div class="arrival-parent-sec max-w-7xl mx-auto">
+        <!-- green card -->
+
+        <div
+          class="hero-content flex-row-reverse hero bg-base-200 mt-40 lg:w-2/3 lg:mb-80 rounded-lg bg-[#115414] lg:h-80 h-48">
+          <!-- arrival img -->
+
+          <img class="lg:w-fit h-40 lg:h-full ml-6" src="c2-assets/dawat-mock-up.png" />
+
+          <div class="lg:space-y-4 bg-green-700">
+            <!-- arrival logo -->
+
+            <img class="mb-3" src="c2-assets/dawat-logo.png" alt="">
+
+            <button class="btn btn-primary bg-[#63B76D] text-white text-xs lg:text-xl poppins-font font-base mb-3 ">Cook
+              Exotic Dishes</button>
+
+            <h1 class="lg:text-5xl text-lg font-bold text-white">UP to 20% OFF</h1>
+          </div>
+          <!-- blue card -->
+
+        </div>
+        <div>
+
+
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
